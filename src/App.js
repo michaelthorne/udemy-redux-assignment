@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Persons from './containers/Persons';
+import Persons from './containers/Persons'
 
 class App extends Component {
   render() {
@@ -11,8 +11,8 @@ class App extends Component {
         </ol>
         <Persons />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
